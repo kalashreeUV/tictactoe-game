@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  h1, h2, h3 {
+    text-shadow: 0 0 5px #00ffe7;
+  }
+  
+  input {
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background: #00ffe7;
+    color: #000;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 10px;
+    box-shadow: 0 0 10px #00ffe7;
+    transition: background 0.3s;
+  }
+  
+  button:hover {
+    background: #00c9aa;
+  }
+  
+  #game-board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    gap: 15px;
+    margin: 20px 0;
+  }
+  
+  .cell {
+    width: 100px;
+    height: 100px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid #00ffe7;
+    border-radius: 15px;
+    font-size: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .cell:hover {
+    background: rgba(0, 255, 231, 0.2);
+    transform: scale(1.05);
+  }
+  
+  #score-board {
+    font-size: 1.2rem;
+    color: #00ffe7;
+  }
+  
