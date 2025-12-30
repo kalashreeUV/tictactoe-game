@@ -1,6 +1,5 @@
 # Tic Tac Toe Game
-
-A simple Tic Tac Toe game built with HTML, CSS, and JavaScript.
+Tic Tac Toe is a simple web-based game developed using HTML, CSS, and JavaScript. It allows two players to take turns marking X and O on a 3×3 grid. The game includes logic to detect winning combinations and draw conditions
 
 ## Features
 
